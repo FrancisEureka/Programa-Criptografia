@@ -154,7 +154,7 @@
     justify-content: center;
   }
 
-.div-mensagem {
+  .div-mensagem {
     position: relative;
     width: 300px;
     height: 400px;
@@ -167,32 +167,40 @@
     color: #646464;
     background: transparent;
     border-color: transparent;
-}
+  }
+
+  .message-box-div h2 {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+  }
+
+  .message-box-div h3 {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    width: 250px;
+    margin: auto;
+  }
   
 /* onde aparecem div-aparece e div-desapaece */
   .message-box {
     position: absolute;
-    width: 450px;
+    width: 446px;
     height: 676px;
     left: 56rem;
     top: 8rem;
-    padding-top: 80px;
+    padding-top: 90px;
     border-color: transparent;
     color: #ffffff;
     text-align: center;
-  
+
     background: linear-gradient(to bottom, rgb(240, 240, 240), rgb(0, 157, 224));
     border-radius: 15px;
-   }
-
-  .far fa-clone {
-    background: #210f87;
   }
 
-  .fas fa-eraser {
-    background: #003300;
-  }
-  
   .btn-copiar {
     margin-top: 30px;
     background: #009de0;
@@ -240,6 +248,14 @@
   .rodape-prin, .rodape-prin span, .icones-sociais li {
     color: #b4b4b4;
   }
+
+  .far fa-clone {
+    background: #210f87;
+  }
+
+  .fas fa-eraser {
+    background: #003300;
+  }
   
   .rodape-prin {
     position: absolute;
@@ -248,7 +264,7 @@
     font-weight: bold;
     font-family: "arial", sans-serif;
     text-align: center;
-  
+
     clear: both; /* limpa dos dois lados do elemento */
     width: 80rem;
     height: 40px;
@@ -280,24 +296,33 @@
     height: 20px;
     margin-left: 10px;
   }
-   
+
   /* ============ */
 
   @media only screen and (max-width: 690px){
     .logo{
       left:1rem;
       top: 3rem;
-    }
+  }
 
-    label {
+  label {
       font-size:14px;
-    }
-    
+  }
+
+  /* Imagem caixa de mensagem da home */ 
+  .message-box-div img {
+    margin-top: 20px;
+    padding: 40px;
+    display: none;
+    align-items: left;
+    border-color: #000000;
+  }
+
   .botoes-div{
       flex-direction: column;
       left: 2rem;
       margin-top: 37rem;
-    }
+  }
     
   /* Rodapé */
   .rodape-prin, .rodape-prin span, .icones-sociais li {
@@ -347,15 +372,6 @@
 .btn-descriptografar {
     margin-top:1rem;
   } 
-
-.message-box-div img{
-  display: none;
-  align-items: left;
-  }
-
-.message-box-div h2 {
-  font-size: 80px;
-}
 
 /* Rodapé */
 .rodape-prin, .rodape-prin span, .icones-sociais li {
