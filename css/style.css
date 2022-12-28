@@ -26,7 +26,6 @@
     top: 5rem;
   }
 
-
   .text-input, .form-group{
     top: 29rem; /* altera posição do label */
   }
@@ -157,75 +156,35 @@
 
 .div-mensagem {
     position: relative;
-    width: 350px;
+    width: 300px;
     height: 400px;
     top: 0px;
-    margin: 20px; 
+    margin: 24px; 
     resize: none;
-    font-size: 26px;
+    font-size: 22px;
     font-style: normal;
     text-align: center;
-    color: #FFFFFF;
+    color: #646464;
     background: transparent;
     border-color: transparent;
 }
   
- .message-box-div h2,.message-box-div h3{
-    position: static;
-    width: 340px;
-    font-style: normal;
-    text-align: center;
-    color: #FFFFFF;
-    background: transparent;
-    flex: none;
-    flex-grow: 0;
-    margin: 20px 20px;
-    resize: none;
-    border-color: transparent;
-  }
-
-  /* onde aparecem div-aparece e div-desapaece */
+/* onde aparecem div-aparece e div-desapaece */
   .message-box {
     position: absolute;
-    width: 430px;
-    height: 725px;
-    left: 62rem;
-    top: 5rem;
-    padding-left: 20px;
+    width: 450px;
+    height: 676px;
+    left: 56rem;
+    top: 8rem;
     padding-top: 80px;
     border-color: transparent;
+    color: #ffffff;
+    text-align: center;
   
     background: linear-gradient(to bottom, rgb(240, 240, 240), rgb(0, 157, 224));
     border-radius: 15px;
    }
-    /* shadow 
-    box-shadow: 10px 10px 20px px rgb(64, 97, 107);
-    */
 
-  .message-box-div, .message-box-div img {
-    margin-bottom:1rem;
-    background: transparent;
-    align-items: center;
-  }
-    
-  .message-box h2{
-    height: ¨100px;
-    font-weight: bold;
-    font-size: 27px;
-    line-height: 120%; /* aproximadamente 29px */
-  
-    order: 0;
-  }
-  
-  .message-box h3{
-    height: 48px;
-    top: 74px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 150%; /* Define a altura da linha em ~- 24px */
-    order: 1;
-  }
-  
   .far fa-clone {
     background: #210f87;
   }
@@ -340,24 +299,6 @@
       margin-top: 37rem;
     }
   
-  .message-box-div img{
-    display: none;
-  }
-
-  .message-box-div h2,.message-box-div h3{
-    width: 12rem;
-    font-size:12px;
-    margin-top: 5rem;
-  }
-
-  .message-box h2{
-    font-size: 27px;
-  }
-  
-  .message-box h3{
-    font-size: 14px;
-  }
-  
   .btn-copiar{
     top: 33rem;
   }
@@ -422,25 +363,27 @@
 .btn-descriptografar {
     margin-top:1rem;
   } 
-  
+
 .message-box-div img{
   display: none;
-  align-items: center;
-}
-
-.message-box-div h2,.message-box-div h3{
-  width: 28rem;
-  font-size:12px;
-  margin-top: 5rem;
-}
+  align-items: left;
+  }
 
 .message-box h2{
-  font-size: 27px;
-}
-
-.message-box h3{
-  font-size: 16px;
-}
+    height: ¨100px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%; /* aproximadamente 29px */
+    margin-top: 200px;
+  }
+  
+  .message-box h3{
+    height: 80px;
+    top: 74px;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 100%; /* Define a altura da linha em ~- 24px */
+  }
 
 .btn-copiar {
   top: 33rem;
