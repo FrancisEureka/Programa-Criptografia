@@ -188,9 +188,13 @@
   .far fa-clone {
     background: #210f87;
   }
+
+  .fas fa-eraser {
+    background: #003300;
+  }
   
   .btn-copiar {
-    margin-top: 80px;
+    margin-top: 40px;
     background: #009de0;
     top: 35rem;
   }
@@ -200,10 +204,6 @@
     color: #fff;
   }
 
-  .fas fa-eraser {
-    background: #003300;
-  }
-  
   .btn-limpar {
     top: 40rem;
     background: #00c7e0;
@@ -216,24 +216,24 @@
 
   .btn-copiar, .btn-limpar {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    padding: 20px;
-    margin-left: 48px;
+    padding: 17px;
+    margin-left: 76px;
     margin-bottom: 10px;
     color: #FFFFFF;
-    width: 298px;
-    height: 40px;
-    left: 40px;
+    width: 300px;
+    height: 26px;
     border-radius: 10px;
     border-color: transparent;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 19px;
+    font-size: 19px;
     text-align: center;
     flex: none;
     justify-content: center;
+    align-content: flex-start;
+    flex-wrap: nowrap;
   }
   
   /* Rodapé */
@@ -298,23 +298,7 @@
       left: 2rem;
       margin-top: 37rem;
     }
-  
-  .btn-copiar{
-    top: 33rem;
-  }
-  
-  .btn-limpar{
-    top: 38rem;
-  }
-  
-  .btn-copiar, .btn-limpar {
-    flex-direction: row; /*icones do lado do texto*/
-    left: 1rem;
-    width: 250px;
-    height: 67px;
-    font-size: 22px;
-  }
-  
+    
   /* Rodapé */
   .rodape-prin, .rodape-prin span, .icones-sociais li {
     background: transparent;
@@ -369,36 +353,8 @@
   align-items: left;
   }
 
-.message-box h2{
-    height: ¨100px;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 100%; /* aproximadamente 29px */
-    margin-top: 200px;
-  }
-  
-  .message-box h3{
-    height: 80px;
-    top: 74px;
-    font-weight: 400;
-    font-size: 8px;
-    line-height: 100%; /* Define a altura da linha em ~- 24px */
-  }
-
-.btn-copiar {
-  top: 33rem;
-}
-
-.btn-limpar{
-  top: 38rem;
-}
-
-.btn-copiar, .btn-limpar {
-  flex-direction: row; /*icones do lado do texto*/
-  left: 1rem;
-  width: 440px;
-  height: 67px;
-  font-size: 22px;
+.message-box-div h2 {
+  font-size: 80px;
 }
 
 /* Rodapé */
